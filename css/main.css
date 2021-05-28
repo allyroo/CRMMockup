@@ -129,3 +129,40 @@ a{
     border: 1px solid black;
     margin: 10px;
 }
+
+/*Footer */
+footer{
+    background:rgb(0,0,255);
+    margin: 30px;
+    padding:30px;
+}
+
+#bold{
+    font-weight: bold;  
+
+}
+
+.smaller{
+    font-size: 14px;
+}
+
+.btn-primary{
+    padding: 10px;
+    margin-right: 100px;
+    background-color: rgb(83, 236, 12);
+}
+
+.btn-secondary{
+    background-color: white;
+    color: rgb(0,0,255);
+    padding: 10px;
+}
+
+.fa-comment-dots{
+    margin-right: 10px;
+}
+
+.list-inline{
+    color: white;
+    margin:10px;
+}
