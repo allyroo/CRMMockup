@@ -1,26 +1,68 @@
-.form-container{
+.col{
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.makeAcc{
+    color: #fff;
+    z-index: 2;
+    top: 29%;
+    left: 30%;
     text-align: center;
-    margin: 35% 20% 0% 0%;
+}
+.makeAcc button{
+    background-color: #fff;
+    color: #008b8b;
+}
+.makeAcc button:hover{
+    color: #008b8b;
+}
+
+.blue{
+    position: relative;
+    background-color: #008b8b;
+}
+
+.ratio{
+    height: 100%;
+    z-index: 1;
+    /* max-height: 1080px; */
+}
+
+.col-6{
+    background-color: #008b8b;
+}
+
+.form-container{
+    background-color: #fff;
+    margin: 12% 5% 0% 5%;
+}
+
+label{
+    text-align: left;
+    margin: 30px 0px 0px 0px;
 }
 
 .form-control{
-    margin: 30px 0px 30px 0px;
     padding: 10px;
     border-color: black;
     border-radius: 20px;
 }
 
-.form-control:focus{
+.form-control:hover{
     border-color: white;
     box-shadow:0 0 0 .25rem #0daf4b
 }
 
 .btn{
+    text-align: center;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
     background-color: #008b8b;
-    color: #fff;
+    color: #fff
 }
 
 .btn:focus{
@@ -33,5 +75,24 @@
 }
 
 .signText{
+    text-align: center;
     margin: 20px 0px 20px 0px;
+}
+
+.icon{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.fa-facebook-f{
+    padding-left: 5px;
+}
+
+.fab{
+    font-size: 30px;
+}
+a, a:hover{
+    color: #000;
 }

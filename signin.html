@@ -1,40 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <meta http-equiv="X-UA-Compatible" content="ie=edge">
-          <meta name="Description" content="Enter your description here"/>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-          <link rel="stylesheet" href="css/signin.css">
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
-          <title>Totally Real CRM</title>
-      </head>
-      <body>
-        <div class="row">
-          <div class="col-6"></div>
-          <div class="col-3"></div>
-            <div class="col-3">
-              <div class="form-container">
-                <h1>Sign In</h1>
-                <input type="email" class="form-control">
-                
-                
-                <input type="email" class="form-control">
-                
-                
-                <input type="email" class="form-control">
-                
-                
-                <button class="btn"><b>Sign In</b></button>
-                
-                
-                <h5 class="signText">Or Sign In With Social Platforms</h5>
-                
-              </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="css/signin.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+        <title>Totally Real CRM</title>
+    </head>
+    <body>
+        <div class="col">
+
+            <div class="col blue">
+                <div class="makeAcc position-absolute">
+                    <h4><b>Don't have an account?</b></h4>
+                    <h4><b>Click the button to make one!</b></h4>
+                    <a href="signup.html">
+                        <button class="btn signText signUp"><b>Sign Up</b></button>
+                    </a>
+                </div>
+                <img src="img/signin/Group 15@2x.png" class="ratio ratio-1x1">
             </div>
-          </div>
-      </body>
+
+            <div class="form-container">
+                <h1 class="signText">Sign In</h1>
+                <label class="label">Username:</label>
+                <input type="username" class="form-control">
+                <label class="label">Email:</label>
+                <input type="email" class="form-control">
+                <label class="label">Password:</label>
+                <input type="password" class="form-control">
+                <div class="d-flex justify-content-evenly">
+                    <a href="index.html">
+                        <button class="btn signText"><b>Sign In</b></button>
+                    </a>
+                </div>
+                <h5 class="signText">Or Sign In With Social Platforms</h5>
+
+                <div class="d-flex justify-content-evenly">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://www.google.com/" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-google"></i>
+                        </div>
+                    </a>
+
+                     <a href="https://www.linkedin.com/" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </body>
 </html>
