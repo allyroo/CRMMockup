@@ -2,17 +2,25 @@
     font-size: 70px;
 }
 
+.navbar{
+    font-size: 30px;
+}
+
 a{
     text-decoration: none;
     color: black;
     font-size: 14px;
-    
+}
+
+a:hover{
+    color:#004f4f;
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
 .navButton1{
     background-color: white;
-    color: blue;
-    border: 1px solid blue;
+    color: #008b8b;
+    border: 1px solid #008b8b;
     border-radius: 7px;
     padding:  4px 8px;
     text-align: center;
@@ -20,9 +28,9 @@ a{
 }
 
 .navButton2{
-    background-color: blue;
+    background-color: #008b8b;
     color: white;
-    border: 1px solid blue;
+    border: 1px solid #008b8b;
     border-radius: 7px;
     padding: 4px 8px;
     text-align: center;
@@ -30,9 +38,9 @@ a{
 }
 
 .signUpButton{
-    background-color: blue;
+    background-color: #008b8b;
     color: white;
-    border: 1px solid blue;
+    border: 1px solid #008b8b;
     border-radius: 7px;
     padding: 10px 20px;
     text-align: center;
@@ -43,8 +51,8 @@ a{
 
 .chatButton{
     background-color: white;
-    color: blue;
-    border: 1px solid blue;
+    color: #008b8b;
+    border: 1px solid #008b8b;
     border-radius: 7px;
     padding:  10px 20px;
     text-align: center;
@@ -58,74 +66,134 @@ a{
 .box1{
     height: 130px;
     width: 130px;
-    color: blue;
-    border: 1px solid blue;
-    margin: 10px;
-    -moz-border-radius: 70px; 
-    -webkit-border-radius: 70px; 
+    background-color: #008b8b;
+    margin: 20px;
     border-radius: 65px 0 65px 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.box1:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box2:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box3:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box4:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box5:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box6:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box7:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box8:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
+}
+
+.box9:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
 }
 
 .box2{
     height: 130px;
     width: 130px;
-    color:blue;
-    border: 1px solid black;
-    margin: 10px;
+    background-color: #008b8b;
+    margin: 20px;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
 }
 
 .box3{
     height: 130px;
     width: 130px;
-    color: blue;
-    border: 1px solid blue;
-    margin: 10px;
+    background-color: #008b8b;
+    margin: 20px;
+    border-radius: 0 0 0 65px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
 }
 
 .box4{
     height: 130px;
     width: 130px;
-    color: white;
-    border: 1px solid black;
-    margin: 10px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 10px 10px 20px 0 gray;
+    font-size: 15px;
+    text-align: center;
 }
 
 .box5{
     height: 130px;
     width: 130px;
-    color:white;
-    border: 1px solid black;
-    margin: 10px;
+    background-color:white;
+    margin: 20px;
+    border-radius: 0 65px 0 0;
+    box-shadow: 10px 10px 20px 0 gray;
+    text-align: center;
+    font-size: 15px;
 }
 
 .box6{
     height: 130px;
     width: 130px;
-    color:white;
-    border: 1px solid black;
-    margin: 10px;
-}
+    background-color:white;
+    margin: 20px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px gray;
+    text-align: center;
+    font-size: 15px;
+} 
 
 .box7{
     height: 130px;
     width: 130px;
-    color: blue;
-    border: 1px solid black;
-    margin: 10px;
+    background-color: #008b8b;
+    margin: 20px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
 }
 
 .box8{
     height: 130px;
     width: 130px;
-    color:blue;
-    border: 1px solid black;
-    margin: 10px;
+    background-color:#008b8b;
+    margin: 20px;
+    border-radius: 0 0 65px 0;
+    text-align: center;
+    color: white;
+    font-size: 15px;
 }
 
 .box9{
     height: 130px;
     width: 130px;
-    color: blue;
-    border: 1px solid black;
-    margin: 10px;
+    background-color: #008b8b;
+    margin: 20px;
+    border-radius: 0 0 65px 0;
+    text-align: center;
+    color: white;
+    font-size: 15px;
 }
