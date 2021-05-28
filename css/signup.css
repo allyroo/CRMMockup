@@ -1,0 +1,28 @@
+body {
+  background-image: url("/Users/Allyse/Documents/coding_temple_rangers_63/week_1/day_4/group_project_rangers_63/CRMMockup/img/signup/Group 10@2x.png")
+    fixed center;
+}
+
+.col-sm-6 {
+  margin: 100px 0px 0px 20px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.form-control {
+  margin: 20px 0px 0px 0px;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+button {
+  margin: 30px;
+}
+
+img {
+  height: auto;
+  width: auto;
+  align-items: right;
+  max-width: 800px;
+  max-height: 800px;
+}
