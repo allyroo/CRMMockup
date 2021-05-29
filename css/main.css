@@ -198,7 +198,20 @@ a:hover{
     font-size: 15px;
 }
 
+/*
+-------- THE MEAT -----------
+*/
+
+.center{
+    text-align: center;
+}
+
+.border{
+    border: 1px solid black;
+}
+
 /*Footer */
+
 footer{
     background:rgb(0,0,255);
     margin: 30px;
