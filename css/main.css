@@ -37,6 +37,10 @@ a:hover{
     font-size: 14px;
 }
 
+.navButton2:hover{
+    color:white;
+}
+
 .signUpButton{
     background-color: #008b8b;
     color: white;
@@ -47,6 +51,10 @@ a:hover{
     font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.signUpButton:hover{
+    color:white;
 }
 
 .chatButton{
@@ -213,7 +221,7 @@ a:hover{
 /*Footer */
 
 footer{
-    background:rgb(0,0,255);
+    background:#008b8b;
     margin: 30px;
     padding:30px;
 }
@@ -230,12 +238,16 @@ footer{
 .btn-primary{
     padding: 10px;
     margin-right: 100px;
-    background-color: rgb(83, 236, 12);
+    /*background-color: #8b0000;*/
+    /*background-color: #8b0053;*/
+    /*background-color: #8b5300;*/
+    background-color: #00588b;
+    border: 1px solid #00588b;
 }
 
 .btn-secondary{
     background-color: white;
-    color: rgb(0,0,255);
+    color: #008b8b;
     padding: 10px;
 }
 
