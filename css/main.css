@@ -214,11 +214,17 @@ a:hover{
     text-align: center;
 }
 
-.border{
-    border: 1px solid black;
+.marginBetween{
+    margin: 5% 0% 0% 0%;
 }
 
-/*Footer */
+.border{
+    border: 1px solid #000 !important;
+}
+
+/*
+--------- FOOTER  ---------
+*/
 
 footer{
     background:#008b8b;
