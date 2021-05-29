@@ -12,12 +12,15 @@
     left: 30%;
     text-align: center;
 }
+
 .makeAcc button{
     background-color: #fff;
     color: #008b8b;
 }
+
 .makeAcc button:hover{
     color: #008b8b;
+    box-shadow:0 0 0 .25rem #0daf4b;
 }
 
 .blue{
@@ -31,41 +34,67 @@
     /* max-height: 1080px; */
 }
 
+h1{
+    font-size: 50px;
+}
+
 .col-6{
     background-color: #008b8b;
 }
 
 .form-container{
     background-color: #fff;
-    margin: 12% 5% 0% 5%;
+    margin: 10% 5% 0% 5%;
 }
 
-label{
-    text-align: left;
-    margin: 30px 0px 0px 0px;
+.inputWithIcon input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding-left: 50px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 20px;
+  color: #aaa;
+}
+.inputWithIcon input[type="text"]:focus + i,
+input[type="password"]:focus + i,
+input[type="email"]:focus + i,
+input[type="text"]:hover + i,
+input[type="password"]:hover + i,
+input[type="email"]:hover + i {
+  color: #0daf4b;
 }
 
 .form-control{
+    margin: 40px 0px 0px 0px;
     padding: 10px;
-    border-color: black;
     border-radius: 20px;
 }
 
-.form-control:hover{
+.form-control:hover, .form-control:focus{
     border-color: white;
-    box-shadow:0 0 0 .25rem #0daf4b
+    box-shadow:0 0 0 .25rem #0daf4b;
 }
 
 .btn{
     text-align: center;
     font-size: 20px;
+    width: 150px;
     padding: 10px 20px 10px 20px;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #008b8b;
-    color: #fff
+    color: #fff;
 }
 
-.btn:focus{
+.btn:hover, .btn:focus{
     border-color: white;
     box-shadow:0 0 0 .25rem #0daf4b;
 }
@@ -86,6 +115,11 @@ label{
     padding: 10px 10px 10px 10px;
 }
 
+.icon:hover{
+    border: 1px solid white;
+    box-shadow:0 0 0 .25rem #000;
+}
+
 .fa-facebook-f{
     padding-left: 5px;
 }
@@ -93,6 +127,7 @@ label{
 .fab{
     font-size: 30px;
 }
+
 a, a:hover{
     color: #000;
 }

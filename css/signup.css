@@ -26,8 +26,9 @@ h1 {
   align-items: center;
 }
 
-.form-control:focus {
-  box-shadow: 0 0 0.25rem #6666ff;
+.form-control:focus ,.form-control:hover{
+  border: 1px solid white;
+  box-shadow: 0 0 0 .25rem #0daf4b;
 }
 
 .inputWithIcon input[type="text"],
@@ -49,17 +50,28 @@ input[type="email"] {
 }
 .inputWithIcon input[type="text"]:focus + i,
 input[type="password"]:focus + i,
-input[type="email"]:focus + i {
-  color: #6666ff;
+input[type="email"]:focus + i,
+input[type="text"]:hover + i,
+input[type="password"]:hover + i,
+input[type="email"]:hover + i{
+  color: #0daf4b;
 }
 
-.btn-primary {
+.signText {
   font-weight: bold;
   font-size: 20px;
   margin: 30px;
   width: 150px;
   border-radius: 50px;
   padding: 10px 20px 10px 20px;
+  background-color: #008b8b;
+  color: white;
+}
+
+.signText:hover{
+  color:white;
+  border: 1px solid white;
+  box-shadow: 0 0 0 .25rem #0daf4b;
 }
 
 .fab {
@@ -67,9 +79,18 @@ input[type="email"]:focus + i {
   color: black;
 }
 
+.d-flex{
+  margin-top: 20px;
+}
+
 .icon {
   border: 1px solid black;
   border-radius: 100%;
   width: 55px;
   padding: 10px;
+}
+
+.icon:hover{
+  border: 1px solid white;
+  box-shadow: 0 0 0 .25rem black;
 }
