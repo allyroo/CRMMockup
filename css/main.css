@@ -1,33 +1,33 @@
-.header1 h1{
+.header1 h1 {
     font-size: 65px;
 }
 
-.navbar{
+.navbar {
     font-size: 30px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
 
-a:hover{
-    color:#004f4f;
+a:hover {
+    color: #004f4f;
     box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.navButton1{
+.navButton1 {
     background-color: white;
     color: #008b8b;
     border: 1px solid #008b8b;
     border-radius: 7px;
-    padding:  4px 8px;
+    padding: 4px 8px;
     text-align: center;
     font-size: 14px;
 }
 
-.navButton2{
+.navButton2 {
     background-color: #008b8b;
     color: white;
     border: 1px solid #008b8b;
@@ -37,11 +37,11 @@ a:hover{
     font-size: 14px;
 }
 
-.navButton2:hover{
-    color:white;
+.navButton2:hover {
+    color: white;
 }
 
-.signUpButton{
+.signUpButton {
     background-color: #008b8b;
     color: white;
     border: 1px solid #008b8b;
@@ -53,25 +53,25 @@ a:hover{
     margin-right: 10px;
 }
 
-.signUpButton:hover{
-    color:white;
+.signUpButton:hover {
+    color: white;
 }
 
-.chatButton{
+.chatButton {
     background-color: white;
     color: #008b8b;
     border: 1px solid #008b8b;
     border-radius: 7px;
-    padding:  10px 20px;
+    padding: 10px 20px;
     text-align: center;
     font-size: 18px;
 }
 
-.signInLink{
+.signInLink {
     font-size: 18px;
 }
 
-.box1{
+.box1 {
     height: 130px;
     width: 130px;
     background-color: #008b8b;
@@ -82,43 +82,43 @@ a:hover{
     text-align: center;
 }
 
-.box1:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box1:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box2:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box2:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box3:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box3:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box4:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box4:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box5:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box5:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box6:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box6:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box7:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box7:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box8:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box8:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box9:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box9:hover {
+    box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box2{
+.box2 {
     height: 130px;
     width: 130px;
     background-color: #008b8b;
@@ -129,7 +129,7 @@ a:hover{
     font-size: 15px;
 }
 
-.box3{
+.box3 {
     height: 130px;
     width: 130px;
     background-color: #008b8b;
@@ -138,10 +138,9 @@ a:hover{
     color: white;
     text-align: center;
     font-size: 15px;
-    
 }
 
-.box4{
+.box4 {
     height: 130px;
     width: 130px;
     background-color: white;
@@ -151,10 +150,10 @@ a:hover{
     text-align: center;
 }
 
-.box5{
+.box5 {
     height: 130px;
     width: 130px;
-    background-color:white;
+    background-color: white;
     margin: 20px;
     border-radius: 0 65px 0 0;
     box-shadow: 10px 10px 20px 0 gray;
@@ -162,18 +161,18 @@ a:hover{
     font-size: 15px;
 }
 
-.box6{
+.box6 {
     height: 130px;
     width: 130px;
-    background-color:white;
+    background-color: white;
     margin: 20px;
     border-radius: 100%;
     box-shadow: 10px 10px 20px gray;
     text-align: center;
     font-size: 15px;
-} 
+}
 
-.box7{
+.box7 {
     height: 130px;
     width: 130px;
     background-color: #008b8b;
@@ -184,18 +183,7 @@ a:hover{
     font-size: 15px;
 }
 
-.box8{
-    height: 130px;
-    width: 130px;
-    background-color:#008b8b;
-    margin: 20px;
-    border-radius: 0 0 65px 0;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-}
-
-.box9{
+.box8 {
     height: 130px;
     width: 130px;
     background-color: #008b8b;
@@ -206,42 +194,108 @@ a:hover{
     font-size: 15px;
 }
 
+.box9 {
+    height: 130px;
+    width: 130px;
+    background-color: #008b8b;
+    margin: 20px;
+    border-radius: 0 0 65px 0;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+
 /*
 -------- THE MEAT -----------
 */
 
-.center{
+
+/* img/index/Collect-info-new.png */
+
+
+/* img/index/payment-new.png */
+
+.card-title {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 18px;
+    margin-top: 30px;
+}
+
+.card-title-1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.card-text {
+    margin-top: 30px
+}
+
+.center {
     text-align: center;
 }
 
-.marginBetween{
-    margin: 5% 0% 0% 0%;
+.marginBetween {
+    margin: 5% 0% 5% 0%;
 }
 
-.border{
+.card {
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 0 0 20px 0;
+}
+
+.bg-white-1 {
+    background-image: url("payment-new.png");
+    border-radius: 30px 0 0 30px;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.bg-white {
+    background-image: url("Collect-info-123.png");
+    border-radius: 30px 0 0 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.border {
     border: 1px solid #000 !important;
 }
+
+.hr {
+    border: 5px solid grey;
+    width: 100%;
+    align-self: center;
+}
+
+.img-info {
+    width: 100%;
+    height: 100%;
+}
+
 
 /*
 --------- FOOTER  ---------
 */
 
-footer{
-    background:#008b8b;
+footer {
+    background: #008b8b;
     margin: 30px;
-    padding:30px;
+    padding: 30px;
 }
 
-#bold{
-    font-weight: bold;  
-
+#bold {
+    font-weight: bold;
 }
 
-.smaller{
+.smaller {
     font-size: 14px;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 10px;
     margin-right: 100px;
     /*background-color: #8b0000;*/
@@ -251,17 +305,17 @@ footer{
     border: 1px solid #00588b;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: white;
     color: #008b8b;
     padding: 10px;
 }
 
-.fa-comment-dots{
+.fa-comment-dots {
     margin-right: 10px;
 }
 
-.list-inline{
+.list-inline {
     color: white;
-    margin:10px;
+    margin: 10px;
 }
