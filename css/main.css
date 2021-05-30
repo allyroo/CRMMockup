@@ -1,267 +1,276 @@
-.header1 h1{
-    font-size: 65px;
+.header1 h1 {
+  font-size: 65px;
 }
 
-.navbar{
-    font-size: 30px;
+.navbar {
+  font-size: 30px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
 }
 
-a:hover{
-    color:#004f4f;
-    box-shadow: 10px 10px 20px 0 #004f4f;
+a:hover {
+  color: #004f4f;
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.navButton1{
-    background-color: white;
-    color: #008b8b;
-    border: 1px solid #008b8b;
-    border-radius: 7px;
-    padding:  4px 8px;
-    text-align: center;
-    font-size: 14px;
+.navButton1 {
+  background-color: white;
+  color: #008b8b;
+  border: 1px solid #008b8b;
+  border-radius: 7px;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 14px;
 }
 
-.navButton2{
-    background-color: #008b8b;
-    color: white;
-    border: 1px solid #008b8b;
-    border-radius: 7px;
-    padding: 4px 8px;
-    text-align: center;
-    font-size: 14px;
+.navButton2 {
+  background-color: #008b8b;
+  color: white;
+  border: 1px solid #008b8b;
+  border-radius: 7px;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 14px;
 }
 
-.navButton2:hover{
-    color:white;
+.navButton2:hover {
+  color: white;
 }
 
-.signUpButton{
-    background-color: #008b8b;
-    color: white;
-    border: 1px solid #008b8b;
-    border-radius: 7px;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
+.signUpButton {
+  background-color: #008b8b;
+  color: white;
+  border: 1px solid #008b8b;
+  border-radius: 7px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.signUpButton:hover{
-    color:white;
+.signUpButton:hover {
+  color: white;
 }
 
-.chatButton{
-    background-color: white;
-    color: #008b8b;
-    border: 1px solid #008b8b;
-    border-radius: 7px;
-    padding:  10px 20px;
-    text-align: center;
-    font-size: 18px;
+.chatButton {
+  background-color: white;
+  color: #008b8b;
+  border: 1px solid #008b8b;
+  border-radius: 7px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
 }
 
-.signInLink{
-    font-size: 18px;
+.signInLink {
+  font-size: 18px;
 }
 
-.box1{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
-    border-radius: 65px 0 65px 0;
-    color: white;
-    font-size: 15px;
-    text-align: center;
+.box1 {
+  height: 130px;
+  width: 130px;
+  background-color: #008b8b;
+  margin: 20px;
+  border-radius: 65px 0 65px 0;
+  color: white;
+  font-size: 15px;
+  text-align: center;
 }
 
-.box1:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box1:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box2:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box2:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box3:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box3:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box4:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box4:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box5:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box5:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box6:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box6:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box7:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box7:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box8:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box8:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box9:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box9:hover {
+  box-shadow: 10px 10px 20px 0 #004f4f;
 }
 
-.box2{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
-    border-radius: 100%;
-    color: white;
-    text-align: center;
-    font-size: 15px;
+.box2 {
+  height: 130px;
+  width: 130px;
+  background-color: #008b8b;
+  margin: 20px;
+  border-radius: 100%;
+  color: white;
+  text-align: center;
+  font-size: 15px;
 }
 
-.box3{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
-    border-radius: 0 0 0 65px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    
+.box3 {
+  height: 130px;
+  width: 130px;
+  background-color: #008b8b;
+  margin: 20px;
+  border-radius: 0 0 0 65px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
 }
 
-.box4{
-    height: 130px;
-    width: 130px;
-    background-color: white;
-    margin: 20px;
-    box-shadow: 10px 10px 20px 0 gray;
-    font-size: 15px;
-    text-align: center;
+.box4 {
+  height: 130px;
+  width: 130px;
+  background-color: white;
+  margin: 20px;
+  box-shadow: 10px 10px 20px 0 gray;
+  font-size: 15px;
+  text-align: center;
 }
 
-.box5{
-    height: 130px;
-    width: 130px;
-    background-color:white;
-    margin: 20px;
-    border-radius: 0 65px 0 0;
-    box-shadow: 10px 10px 20px 0 gray;
-    text-align: center;
-    font-size: 15px;
+.box5 {
+  height: 130px;
+  width: 130px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 0 65px 0 0;
+  box-shadow: 10px 10px 20px 0 gray;
+  text-align: center;
+  font-size: 15px;
 }
 
-.box6{
-    height: 130px;
-    width: 130px;
-    background-color:white;
-    margin: 20px;
-    border-radius: 100%;
-    box-shadow: 10px 10px 20px gray;
-    text-align: center;
-    font-size: 15px;
-} 
-
-.box7{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
-    border-radius: 100%;
-    text-align: center;
-    color: white;
-    font-size: 15px;
+.box6 {
+  height: 130px;
+  width: 130px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 100%;
+  box-shadow: 10px 10px 20px gray;
+  text-align: center;
+  font-size: 15px;
 }
 
-.box8{
-    height: 130px;
-    width: 130px;
-    background-color:#008b8b;
-    margin: 20px;
-    border-radius: 0 0 65px 0;
-    text-align: center;
-    color: white;
-    font-size: 15px;
+.box7 {
+  height: 130px;
+  width: 130px;
+  background-color: #008b8b;
+  margin: 20px;
+  border-radius: 100%;
+  text-align: center;
+  color: white;
+  font-size: 15px;
 }
 
-.box9{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
-    border-radius: 0 0 65px 0;
-    text-align: center;
-    color: white;
-    font-size: 15px;
+.box8 {
+  height: 130px;
+  width: 130px;
+  background-color: #008b8b;
+  margin: 20px;
+  border-radius: 0 0 65px 0;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.box9 {
+  height: 130px;
+  width: 130px;
+  background-color: #008b8b;
+  margin: 20px;
+  border-radius: 0 0 65px 0;
+  text-align: center;
+  color: white;
+  font-size: 15px;
 }
 
 /*
 -------- THE MEAT -----------
 */
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
 
-.marginBetween{
-    margin: 5% 0% 0% 0%;
+.marginBetween {
+  margin: 5% 0% 0% 0%;
 }
 
-.border{
-    border: 1px solid #000 !important;
+.border {
+  border: 1px solid #000 !important;
+}
+
+.explorePanels {
+  height: 130px;
+  border-radius: 10%;
+}
+
+.explorePanels:hover {
+  background-color: #008b8b;
+  box-shadow: 10px 10px 10px 0 gray;
+  color: white;
 }
 
 /*
 --------- FOOTER  ---------
 */
 
-footer{
-    background:#008b8b;
-    margin: 30px;
-    padding:30px;
+footer {
+  background: #008b8b;
+  margin: 30px;
+  padding: 30px;
 }
 
-#bold{
-    font-weight: bold;  
-
+#bold {
+  font-weight: bold;
 }
 
-.smaller{
-    font-size: 14px;
+.smaller {
+  font-size: 14px;
 }
 
-.btn-primary{
-    padding: 10px;
-    margin-right: 100px;
-    /*background-color: #8b0000;*/
-    /*background-color: #8b0053;*/
-    /*background-color: #8b5300;*/
-    background-color: #00588b;
-    border: 1px solid #00588b;
+.btn-primary {
+  padding: 10px;
+  margin-right: 100px;
+  /*background-color: #8b0000;*/
+  /*background-color: #8b0053;*/
+  /*background-color: #8b5300;*/
+  background-color: #00588b;
+  border: 1px solid #00588b;
 }
 
-.btn-secondary{
-    background-color: white;
-    color: #008b8b;
-    padding: 10px;
+.btn-secondary {
+  background-color: white;
+  color: #008b8b;
+  padding: 10px;
 }
 
-.fa-comment-dots{
-    margin-right: 10px;
+.fa-comment-dots {
+  margin-right: 10px;
 }
 
-.list-inline{
-    color: white;
-    margin:10px;
+.list-inline {
+  color: white;
+  margin: 10px;
 }
