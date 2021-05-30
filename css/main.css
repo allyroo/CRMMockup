@@ -71,143 +71,70 @@ a:hover{
     font-size: 18px;
 }
 
-.box1{
+.box{
     height: 130px;
     width: 130px;
-    background-color: #008b8b;
     margin: 20px;
-    border-radius: 65px 0 65px 0;
-    color: white;
     font-size: 15px;
     text-align: center;
 }
 
-.box1:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.boxDark{
+    background-color: #008b8b;
+    color: white;
 }
 
-.box2:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.boxWhite{
+    background-color: white;
 }
 
-.box3:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
-}
-
-.box4:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
-}
-
-.box5:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
-}
-
-.box6:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
-}
-
-.box7:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
-}
-
-.box8:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
-}
-
-.box9:hover{
-    box-shadow: 10px 10px 20px 0 #004f4f; 
+.box1{
+    border-radius: 65px 0 65px 0;
 }
 
 .box2{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
     border-radius: 100%;
-    color: white;
-    text-align: center;
-    font-size: 15px;
 }
 
 .box3{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
-    border-radius: 0 0 0 65px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    
+    border-radius: 0 0 0 65px; 
 }
 
 .box4{
-    height: 130px;
-    width: 130px;
-    background-color: white;
-    margin: 20px;
     box-shadow: 10px 10px 20px 0 gray;
-    font-size: 15px;
-    text-align: center;
 }
 
 .box5{
-    height: 130px;
-    width: 130px;
-    background-color:white;
-    margin: 20px;
     border-radius: 0 65px 0 0;
     box-shadow: 10px 10px 20px 0 gray;
-    text-align: center;
-    font-size: 15px;
 }
 
 .box6{
-    height: 130px;
-    width: 130px;
-    background-color:white;
-    margin: 20px;
     border-radius: 100%;
     box-shadow: 10px 10px 20px gray;
-    text-align: center;
-    font-size: 15px;
 } 
 
 .box7{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
     border-radius: 100%;
     text-align: center;
-    color: white;
-    font-size: 15px;
 }
 
 .box8{
-    height: 130px;
-    width: 130px;
-    background-color:#008b8b;
-    margin: 20px;
     border-radius: 0 0 65px 0;
-    text-align: center;
-    color: white;
-    font-size: 15px;
 }
 
 .box9{
-    height: 130px;
-    width: 130px;
-    background-color: #008b8b;
-    margin: 20px;
     border-radius: 0 0 65px 0;
-    text-align: center;
-    color: white;
-    font-size: 15px;
+}
+
+.box1:hover, .box2:hover, .box3:hover,
+.box4:hover, .box5:hover, .box6:hover,
+.box7:hover, .box8:hover, .box9:hover{
+    box-shadow: 10px 10px 20px 0 #004f4f; 
 }
 
 /*
--------- THE MEAT -----------
+    -------- THE MEAT -----------
 */
 
 .center{
