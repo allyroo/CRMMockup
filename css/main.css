@@ -226,7 +226,16 @@ a:hover {
     margin-top: 50px;
 }
 
+.learnMore{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 16px;
 
+}
 /*
 --------- FOOTER  ---------
 */
@@ -246,10 +255,6 @@ footer {
 
 .btn-primary {
     padding: 10px;
-    margin-right: 100px;
-    /*background-color: #8b0000;*/
-    /*background-color: #8b0053;*/
-    /*background-color: #8b5300;*/
     background-color: #00588b;
     border: 1px solid #00588b;
 }
@@ -268,3 +273,14 @@ footer {
     color: white;
     margin: 10px;
 }
+
+.emailDash{
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.desktopLogo{
+    margin:auto;
+}
+
