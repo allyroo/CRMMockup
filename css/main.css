@@ -175,7 +175,9 @@ a:hover {
 }
 
 .btn-outline-primary:hover{
-    border: 1px solid blue;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
 }
 
 .border {
