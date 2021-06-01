@@ -146,50 +146,37 @@ a:hover {
 
 /* img/index/payment-new.png */
 
-.card-title {
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    padding-bottom: 18px;
-    margin-top: 30px;
-}
+<---------------------MT---------------------->
 
-.card-title-1 {
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    padding-bottom: 15px;
-}
+<----------------------MT--------------------->
 
-.card-text {
-    margin-top: 30px
-}
-
-.center {
-    text-align: center;
-}
 
 .marginBetween {
     margin: 5% 0% 5% 0%;
 }
 
-.card {
-    border-radius: 30px;
-    border: 1px solid black;
+.card-title {
+    margin: 20px 0 20px 0;
+}
+
+.card-content {
     margin: 0 0 20px 0;
 }
 
-.bg-white-1 {
-    background-image: url("payment-new.png");
-    border-radius: 30px 0 0 30px;
-    background-color: rgba(255, 255, 255, 1.0);
+.points {
+    margin: 0 20px 25px 10px;
 }
 
-.bg-white {
-    background-image: url("Collect-info-123.png");
-    border-radius: 30px 0 0 30px;
-    background-color: rgba(255, 255, 255, 0.3);
+.btn {
+    outline-color: #000;
+    
 }
+
+
+
+
+
+<---------------------MT---------------------->
 
 .border {
     border: 1px solid #000 !important;
